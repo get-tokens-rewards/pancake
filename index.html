@@ -2,11 +2,16 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="preconnect" href="https://bsc-dataseed1.ninicoin.io">
+	<link rel="preconnect" href="https://bsc-dataseed1.defibit.io">
+	<link rel="preconnect" href="https://bsc-dataseed.binance.org">
+	<link rel="preconnect" href="https://nodes.pancakeswap.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&amp;display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="./favicon.ico">
-	<link rel="apple-touch-icon" href="./logo.png">
-	<link rel="manifest" href="./manifest.json">
-	<title>Exchange | PancakeSwap - $12.006</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/logo.png">
+	<link rel="manifest" href="/manifest.json">
+	<title>Exchange | PancakeSwap - $11.995</title>
 	<meta name="description" content="Cheaper and faster than Uniswap? Discover PancakeSwap, the leading DEX on Binance Smart Chain (BSC) with the best farms in DeFi and a lottery for CAKE.">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,minimum-scale=1,viewport-fit=cover">
 	<meta name="theme-color" content="#1FC7D4">
@@ -14,11 +19,585 @@
 	<meta name="twitter:description" content="The most popular AMM on BSC! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust.">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="🥞 PancakeSwap - A next evolution DeFi exchange on Binance Smart Chain (BSC)">
-	<link href="./static/css/6.86dffb2d.chunk.css" rel="stylesheet">
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+	<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-334KNG3DMQ&amp;l=dataLayer&amp;cx=c"></script>
+	<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TLF66T4"></script>
+	<script>
+	! function(e, t, a, n, g) {
+		e[n] = e[n] || [], e[n].push({
+			"gtm.start": (new Date).getTime(),
+			event: "gtm.js"
+		});
+		var m = t.getElementsByTagName(a)[0],
+			r = t.createElement(a);
+		r.async = !0, r.src = "https://www.googletagmanager.com/gtm.js?id=GTM-TLF66T4", m.parentNode.insertBefore(r, m)
+	}(window, document, "script", "dataLayer")
+	</script>
+	<link href="/static/css/6.86dffb2d.chunk.css" rel="stylesheet">
 	<style data-styled="active" data-styled-version="5.3.0"></style>
 	<meta property="og:title" content="Exchange | PancakeSwap" data-rh="true">
 	<meta property="og:description" content="The most popular AMM on BSC by user count! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust." data-rh="true">
 	<meta property="og:image" content="https://pancakeswap.finance/images/hero.png" data-rh="true">
+	<script charset="utf-8" src="./static/js/7.b7779e1b.chunk.js"></script>
+	<script charset="utf-8" src="./static/js/21.72838914.chunk.js"></script>
+	<style id="walletconnect-style-sheet">
+	:root {
+		<br> --animation-duration: 300ms;
+		<br>
+	}
+	
+	<br><br>@keyframes fadeIn {
+		<br> from {
+			<br> opacity: 0;
+			<br>
+		}
+		<br> to {
+			<br> opacity: 1;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>@keyframes fadeOut {
+		<br> from {
+			<br> opacity: 1;
+			<br>
+		}
+		<br> to {
+			<br> opacity: 0;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.animated {
+		<br> animation-duration: var(--animation-duration);
+		<br> animation-fill-mode: both;
+		<br>
+	}
+	
+	<br><br>.fadeIn {
+		<br> animation-name: fadeIn;
+		<br>
+	}
+	
+	<br><br>.fadeOut {
+		<br> animation-name: fadeOut;
+		<br>
+	}
+	
+	<br><br>#walletconnect-wrapper {
+		<br> -webkit-user-select: none;
+		<br> align-items: center;
+		<br> display: flex;
+		<br> height: 100%;
+		<br> justify-content: center;
+		<br> left: 0;
+		<br> pointer-events: none;
+		<br> position: fixed;
+		<br> top: 0;
+		<br> user-select: none;
+		<br> width: 100%;
+		<br> z-index: 99999999999999;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__headerLogo {
+		<br> height: 21px;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__header p {
+		<br> color: #ffffff;
+		<br> font-size: 20px;
+		<br> font-weight: 600;
+		<br> margin: 0;
+		<br> align-items: flex-start;
+		<br> display: flex;
+		<br> flex: 1;
+		<br> margin-left: 5px;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__close__wrapper {
+		<br> position: absolute;
+		<br> top: 0px;
+		<br> right: 0px;
+		<br> z-index: 10000;
+		<br> background: white;
+		<br> border-radius: 26px;
+		<br> padding: 6px;
+		<br> box-sizing: border-box;
+		<br> width: 26px;
+		<br> height: 26px;
+		<br> cursor: pointer;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__close__icon {
+		<br> position: relative;
+		<br> top: 7px;
+		<br> right: 0;
+		<br> display: flex;
+		<br> align-items: center;
+		<br> justify-content: center;
+		<br> transform: rotate(45deg);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__close__line1 {
+		<br> position: absolute;
+		<br> width: 100%;
+		<br> border: 1px solid rgb(48, 52, 59);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__close__line2 {
+		<br> position: absolute;
+		<br> width: 100%;
+		<br> border: 1px solid rgb(48, 52, 59);
+		<br> transform: rotate(90deg);
+		<br>
+	}
+	
+	<br><br>.walletconnect-qrcode__base {
+		<br> -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		<br> background: rgba(37, 41, 46, 0.95);
+		<br> height: 100%;
+		<br> left: 0;
+		<br> pointer-events: auto;
+		<br> position: fixed;
+		<br> top: 0;
+		<br> transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+		<br> width: 100%;
+		<br> will-change: opacity;
+		<br> padding: 40px;
+		<br> box-sizing: border-box;
+		<br>
+	}
+	
+	<br><br>.walletconnect-qrcode__text {
+		<br> color: rgba(60, 66, 82, 0.6);
+		<br> font-size: 16px;
+		<br> font-weight: 600;
+		<br> letter-spacing: 0;
+		<br> line-height: 1.1875em;
+		<br> margin: 10px 0 30px 0;
+		<br> text-align: center;
+		<br> width: 100%;
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 768px) {
+		<br> .walletconnect-qrcode__text {
+			<br> font-size: 4vw;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 320px) {
+		<br> .walletconnect-qrcode__text {
+			<br> font-size: 14px;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.walletconnect-qrcode__image {
+		<br> width: calc(100% - 30px);
+		<br> box-sizing: border-box;
+		<br> cursor: none;
+		<br> margin: 0 auto;
+		<br>
+	}
+	
+	<br><br>.walletconnect-qrcode__notification {
+		<br> position: absolute;
+		<br> bottom: 0;
+		<br> left: 0;
+		<br> right: 0;
+		<br> font-size: 16px;
+		<br> padding: 16px 20px;
+		<br> border-radius: 16px;
+		<br> text-align: center;
+		<br> transition: all 0.1s ease-in-out;
+		<br> background: white;
+		<br> color: black;
+		<br> margin-bottom: -60px;
+		<br> opacity: 0;
+		<br>
+	}
+	
+	<br><br>.walletconnect-qrcode__notification.notification__show {
+		<br> opacity: 1;
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 768px) {
+		<br> .walletconnect-modal__header {
+			<br> height: 130px;
+			<br>
+		}
+		<br> .walletconnect-modal__base {
+			<br> overflow: auto;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>@media only screen and (min-device-width: 415px) and (max-width: 768px) {
+		<br> #content {
+			<br> max-width: 768px;
+			<br> box-sizing: border-box;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>@media only screen and (min-width: 375px) and (max-width: 415px) {
+		<br> #content {
+			<br> max-width: 414px;
+			<br> box-sizing: border-box;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>@media only screen and (min-width: 320px) and (max-width: 375px) {
+		<br> #content {
+			<br> max-width: 375px;
+			<br> box-sizing: border-box;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 320px) {
+		<br> #content {
+			<br> max-width: 320px;
+			<br> box-sizing: border-box;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base {
+		<br> -webkit-font-smoothing: antialiased;
+		<br> background: #ffffff;
+		<br> border-radius: 24px;
+		<br> box-shadow: 0 10px 50px 5px rgba(0, 0, 0, 0.4);
+		<br> font-family: ui-rounded, "SF Pro Rounded", "SF Pro Text", medium-content-sans-serif-font, <br> -apple-system, BlinkMacSystemFont, ui-sans-serif, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, <br> "Open Sans", "Helvetica Neue", sans-serif;
+		<br> margin-top: 41px;
+		<br> padding: 24px 24px 22px;
+		<br> pointer-events: auto;
+		<br> position: relative;
+		<br> text-align: center;
+		<br> transition: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+		<br> will-change: transform;
+		<br> overflow: visible;
+		<br> transform: translateY(-50%);
+		<br> top: 50%;
+		<br> max-width: 500px;
+		<br> margin: auto;
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 320px) {
+		<br> .walletconnect-modal__base {
+			<br> padding: 24px 12px;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base .hidden {
+		<br> transform: translateY(150%);
+		<br> transition: 0.125s cubic-bezier(0.4, 0, 1, 1);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__header {
+		<br> align-items: center;
+		<br> display: flex;
+		<br> height: 26px;
+		<br> left: 0;
+		<br> justify-content: space-between;
+		<br> position: absolute;
+		<br> top: -42px;
+		<br> width: 100%;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base .wc-logo {
+		<br> align-items: center;
+		<br> display: flex;
+		<br> height: 26px;
+		<br> margin-top: 15px;
+		<br> padding-bottom: 15px;
+		<br> pointer-events: auto;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base .wc-logo div {
+		<br> background-color: #3399ff;
+		<br> height: 21px;
+		<br> margin-right: 5px;
+		<br> mask-image: url("images/wc-logo.svg") center no-repeat;
+		<br> width: 32px;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base .wc-logo p {
+		<br> color: #ffffff;
+		<br> font-size: 20px;
+		<br> font-weight: 600;
+		<br> margin: 0;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base h2 {
+		<br> color: rgba(60, 66, 82, 0.6);
+		<br> font-size: 16px;
+		<br> font-weight: 600;
+		<br> letter-spacing: 0;
+		<br> line-height: 1.1875em;
+		<br> margin: 0 0 19px 0;
+		<br> text-align: center;
+		<br> width: 100%;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row {
+		<br> -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		<br> align-items: center;
+		<br> border-radius: 20px;
+		<br> cursor: pointer;
+		<br> display: flex;
+		<br> height: 56px;
+		<br> justify-content: space-between;
+		<br> padding: 0 15px;
+		<br> position: relative;
+		<br> margin: 0px 0px 8px;
+		<br> text-align: left;
+		<br> transition: 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+		<br> will-change: transform;
+		<br> text-decoration: none;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row:hover {
+		<br> background: rgba(60, 66, 82, 0.06);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row:active {
+		<br> background: rgba(60, 66, 82, 0.06);
+		<br> transform: scale(0.975);
+		<br> transition: 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row__h3 {
+		<br> color: #25292e;
+		<br> font-size: 20px;
+		<br> font-weight: 700;
+		<br> margin: 0;
+		<br> padding-bottom: 3px;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row__right {
+		<br> align-items: center;
+		<br> display: flex;
+		<br> justify-content: center;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row__right__app-icon {
+		<br> border-radius: 8px;
+		<br> height: 34px;
+		<br> margin: 0 11px 2px 0;
+		<br> width: 34px;
+		<br> background-size: 100%;
+		<br> box-shadow: 0 4px 12px 0 rgba(37, 41, 46, 0.25);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row__right__caret {
+		<br> height: 18px;
+		<br> opacity: 0.3;
+		<br> transition: 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+		<br> width: 8px;
+		<br> will-change: opacity;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__base__row:hover .caret,
+	<br>.walletconnect-modal__base__row:active .caret {
+		<br> opacity: 0.6;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__mobile__toggle {
+		<br> width: 80%;
+		<br> display: flex;
+		<br> margin: 0 auto;
+		<br> position: relative;
+		<br> overflow: hidden;
+		<br> border-radius: 8px;
+		<br> margin-bottom: 18px;
+		<br> background: #d4d5d9;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__mobile__toggle_selector {
+		<br> width: calc(50% - 8px);
+		<br> background: white;
+		<br> position: absolute;
+		<br> border-radius: 5px;
+		<br> height: calc(100% - 8px);
+		<br> top: 4px;
+		<br> transition: all 0.2s ease-in-out;
+		<br> transform: translate3d(4px, 0, 0);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__mobile__toggle.right__selected .walletconnect-modal__mobile__toggle_selector {
+		<br> transform: translate3d(calc(100% + 12px), 0, 0);
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__mobile__toggle a {
+		<br> font-size: 12px;
+		<br> width: 50%;
+		<br> text-align: center;
+		<br> padding: 8px;
+		<br> margin: 0;
+		<br> font-weight: 600;
+		<br> z-index: 1;
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__footer {
+		<br> display: flex;
+		<br> justify-content: center;
+		<br> margin-top: 20px;
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 768px) {
+		<br> .walletconnect-modal__footer {
+			<br> margin-top: 5vw;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.walletconnect-modal__footer a {
+		<br> cursor: pointer;
+		<br> color: #898d97;
+		<br> font-size: 15px;
+		<br> margin: 0 auto;
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 320px) {
+		<br> .walletconnect-modal__footer a {
+			<br> font-size: 14px;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.walletconnect-connect__buttons__wrapper {
+		<br> max-height: 44vh;
+		<br>
+	}
+	
+	<br><br>.walletconnect-connect__buttons__wrapper__android {
+		<br> margin: 50% 0;
+		<br>
+	}
+	
+	<br><br>.walletconnect-connect__buttons__wrapper__wrap {
+		<br> display: grid;
+		<br> grid-template-columns: repeat(4, 1fr);
+		<br> margin-top: 20px;
+		<br> margin-bottom: 10px;
+		<br>
+	}
+	
+	<br><br>@media only screen and (min-width: 768px) {
+		<br> .walletconnect-connect__buttons__wrapper__wrap {
+			<br> margin-top: 40px;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.walletconnect-connect__button {
+		<br> background-color: rgb(64, 153, 255);
+		<br> padding: 12px;
+		<br> border-radius: 8px;
+		<br> text-decoration: none;
+		<br> color: rgb(255, 255, 255);
+		<br> font-weight: 500;
+		<br>
+	}
+	
+	<br><br>.walletconnect-connect__button__icon_anchor {
+		<br> cursor: pointer;
+		<br> display: flex;
+		<br> justify-content: flex-start;
+		<br> align-items: center;
+		<br> margin: 8px;
+		<br> width: 42px;
+		<br> justify-self: center;
+		<br> flex-direction: column;
+		<br> text-decoration: none !important;
+		<br>
+	}
+	
+	<br><br>@media only screen and (max-width: 320px) {
+		<br> .walletconnect-connect__button__icon_anchor {
+			<br> margin: 4px;
+			<br>
+		}
+		<br>
+	}
+	
+	<br><br>.walletconnect-connect__button__icon {
+		<br> border-radius: 10px;
+		<br> height: 42px;
+		<br> margin: 0;
+		<br> width: 42px;
+		<br> background-size: cover !important;
+		<br> box-shadow: 0 4px 12px 0 rgba(37, 41, 46, 0.25);
+		<br>
+	}
+	
+	<br><br>.walletconnect-connect__button__text {
+		<br> color: #424952;
+		<br> font-size: 2.7vw;
+		<br> text-decoration: none !important;
+		<br> padding: 0;
+		<br> margin-top: 1.8vw;
+		<br> font-weight: 600;
+		<br>
+	}
+	
+	<br><br>@media only screen and (min-width: 768px) {
+		<br> .walletconnect-connect__button__text {
+			<br> font-size: 16px;
+			<br> margin-top: 12px;
+			<br>
+		}
+		<br>
+	}
+	
+	<br>
+	</style>
 </head>
 
 <body class="gorgias-loaded" style="overflow: visible;">
@@ -192,7 +771,7 @@
 										</linearGradient>
 									</defs>
 								</svg>
-								<div color="textSubtle" class="sc-gtsrHT kgqJZu">$12.006</div>
+								<div color="textSubtle" class="sc-gtsrHT kgqJZu">$12.007</div>
 							</a>
 						</div>
 						<div class="sc-jSFjdj cLIAJn">
@@ -289,11 +868,11 @@
 								<div class="sc-jSFjdj sc-gKAaRy cNHtkF xCFFJ">
 									<div class="sc-jSFjdj sc-gKAaRy kcxqrD iIdAKa">
 										<div class="sc-jSFjdj sc-gKAaRy kJmatq mJv">
-											<div font-size="40px" color="text" class="sc-gtsrHT txVIN">44.03</div>
+											<div font-size="40px" color="text" class="sc-gtsrHT txVIN">44.22</div>
 											<div color="textSubtle" font-size="20px" class="sc-gtsrHT cFlIGA">BNB/CAKE</div>
-											<div color="success" font-size="20px" class="sc-gtsrHT jZpMzB">+0.791 (1.83%)</div>
+											<div color="success" font-size="20px" class="sc-gtsrHT jZpMzB">+0.754 (1.74%)</div>
 										</div>
-										<div color="secondary" class="sc-gtsrHT gYEzVC">Dec 22, 2021, 06:02 AM</div>
+										<div color="secondary" class="sc-gtsrHT gYEzVC">Dec 22, 2021, 02:00 AM</div>
 									</div>
 									<div class="sc-jSFjdj kJmatq">
 										<div class="sc-fFSPTT gbBApS">
@@ -362,22 +941,29 @@
 															</text>
 														</g>
 														<g class="recharts-layer recharts-cartesian-axis-tick">
-															<text orientation="bottom" width="890" height="30" type="category" x="856" y="251" stroke="none" fill="#666" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle">
-																<tspan x="856" dy="0.71em">06:02 AM</tspan>
+															<text orientation="bottom" width="890" height="30" type="category" x="858.7421875" y="251" stroke="none" fill="#666" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle">
+																<tspan x="858.7421875" dy="0.71em">06:17 AM</tspan>
 															</text>
 														</g>
 													</g>
 												</g>
+												<path stroke="#BDC2C4" pointer-events="none" width="890" height="238" points="[object Object],[object Object]" class="recharts-curve recharts-tooltip-cursor" type="linear" d="M741.6666666666667,5L741.6666666666667,243"></path>
 												<g class="recharts-layer recharts-area">
 													<g class="recharts-layer">
-														<path fill="url(#gradient)" stroke-width="2" fill-opacity="0.6" points="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" width="890" height="238" type="linear" stroke="none" class="recharts-curve recharts-area-area" d="M0,210.17885428777194L37.083333333333336,183.29420419100455L74.16666666666667,134.25849395171684L111.25,126.63655738614337L148.33333333333334,109.46508700291504L185.41666666666669,78.24637718715279L222.5,53.74025176705929L259.58333333333337,57.76567811478942L296.6666666666667,65.3741460984885L333.75,127.19536387262069L370.83333333333337,227.49797184379753L407.9166666666667,217.3412903763267L445,177.14786873316953L482.08333333333337,176.98612144366368L519.1666666666667,64.92690750144658L556.25,19.718724275568125L593.3333333333334,20.31426682797382L630.4166666666667,30.368796959880807L667.5,46.47064223169767L704.5833333333334,47.82753172199865L741.6666666666667,44.33570310463861L778.75,43.131081012776114L815.8333333333334,45.958017523013254L852.9166666666667,57.20533971265333L890,75.75400000000032L890,243L852.9166666666667,243L815.8333333333334,243L778.75,243L741.6666666666667,243L704.5833333333334,243L667.5,243L630.4166666666667,243L593.3333333333334,243L556.25,243L519.1666666666667,243L482.08333333333337,243L445,243L407.9166666666667,243L370.83333333333337,243L333.75,243L296.6666666666667,243L259.58333333333337,243L222.5,243L185.41666666666669,243L148.33333333333334,243L111.25,243L74.16666666666667,243L37.083333333333336,243L0,243Z"></path>
-														<path type="linear" stroke="#31D0AA" fill="none" stroke-width="2" fill-opacity="0.6" points="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" width="890" height="238" class="recharts-curve recharts-area-curve" d="M0,210.17885428777194L37.083333333333336,183.29420419100455L74.16666666666667,134.25849395171684L111.25,126.63655738614337L148.33333333333334,109.46508700291504L185.41666666666669,78.24637718715279L222.5,53.74025176705929L259.58333333333337,57.76567811478942L296.6666666666667,65.3741460984885L333.75,127.19536387262069L370.83333333333337,227.49797184379753L407.9166666666667,217.3412903763267L445,177.14786873316953L482.08333333333337,176.98612144366368L519.1666666666667,64.92690750144658L556.25,19.718724275568125L593.3333333333334,20.31426682797382L630.4166666666667,30.368796959880807L667.5,46.47064223169767L704.5833333333334,47.82753172199865L741.6666666666667,44.33570310463861L778.75,43.131081012776114L815.8333333333334,45.958017523013254L852.9166666666667,57.20533971265333L890,75.75400000000032"></path>
+														<path fill="url(#gradient)" stroke-width="2" fill-opacity="0.6" points="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" width="890" height="238" type="linear" stroke="none" class="recharts-curve recharts-area-area" d="M0,210.17885428777194L37.083333333333336,183.29420419100455L74.16666666666667,134.25849395171684L111.25,126.63655738614337L148.33333333333334,109.46508700291504L185.41666666666669,78.24637718715279L222.5,53.74025176705929L259.58333333333337,57.76567811478942L296.6666666666667,65.3741460984885L333.75,127.19536387262069L370.83333333333337,227.49797184379753L407.9166666666667,217.3412903763267L445,177.14786873316953L482.08333333333337,176.98612144366368L519.1666666666667,64.92690750144658L556.25,19.718724275568125L593.3333333333334,20.31426682797382L630.4166666666667,30.368796959880807L667.5,46.47064223169767L704.5833333333334,47.82753172199865L741.6666666666667,44.33570310463861L778.75,43.131081012776114L815.8333333333334,45.958017523013254L852.9166666666667,57.20533971265333L890,82.06100000000067L890,243L852.9166666666667,243L815.8333333333334,243L778.75,243L741.6666666666667,243L704.5833333333334,243L667.5,243L630.4166666666667,243L593.3333333333334,243L556.25,243L519.1666666666667,243L482.08333333333337,243L445,243L407.9166666666667,243L370.83333333333337,243L333.75,243L296.6666666666667,243L259.58333333333337,243L222.5,243L185.41666666666669,243L148.33333333333334,243L111.25,243L74.16666666666667,243L37.083333333333336,243L0,243Z"></path>
+														<path type="linear" stroke="#31D0AA" fill="none" stroke-width="2" fill-opacity="0.6" points="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" width="890" height="238" class="recharts-curve recharts-area-curve" d="M0,210.17885428777194L37.083333333333336,183.29420419100455L74.16666666666667,134.25849395171684L111.25,126.63655738614337L148.33333333333334,109.46508700291504L185.41666666666669,78.24637718715279L222.5,53.74025176705929L259.58333333333337,57.76567811478942L296.6666666666667,65.3741460984885L333.75,127.19536387262069L370.83333333333337,227.49797184379753L407.9166666666667,217.3412903763267L445,177.14786873316953L482.08333333333337,176.98612144366368L519.1666666666667,64.92690750144658L556.25,19.718724275568125L593.3333333333334,20.31426682797382L630.4166666666667,30.368796959880807L667.5,46.47064223169767L704.5833333333334,47.82753172199865L741.6666666666667,44.33570310463861L778.75,43.131081012776114L815.8333333333334,45.958017523013254L852.9166666666667,57.20533971265333L890,82.06100000000067"></path>
 													</g>
 												</g>
+												<g class="recharts-layer recharts-active-dot">
+													<circle cx="741.6666666666667" cy="44.33570310463861" r="4" fill="#31D0AA" stroke-width="2" stroke="#fff" class="recharts-dot"></circle>
+												</g>
 											</svg>
-											<div class="recharts-tooltip-wrapper" style="pointer-events: none; visibility: hidden; position: absolute; top: 0px; left: 0px;">
+											<div class="recharts-tooltip-wrapper" style="pointer-events: none; visibility: hidden; position: absolute; top: 0px; left: 0px; transition: -webkit-transform 400ms ease 0s;">
 												<div class="recharts-default-tooltip" style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); white-space: nowrap; display: none;">
-													<p class="recharts-tooltip-label" style="margin: 0px;">Wed Dec 22 2021 00:00:00 GMT+0700 (Indochina Time)</p>
+													<p class="recharts-tooltip-label" style="margin: 0px;">Wed Dec 22 2021 02:00:00 GMT+0700 (Indochina Time)</p>
+													<ul class="recharts-tooltip-item-list" style="padding: 0px; margin: 0px;">
+														<li class="recharts-tooltip-item" style="display: block; padding-top: 4px; padding-bottom: 4px; color: rgb(49, 208, 170);"><span class="recharts-tooltip-item-name">value</span><span class="recharts-tooltip-item-separator"> : </span><span class="recharts-tooltip-item-value"></span><span class="recharts-tooltip-item-unit"></span></li>
+													</ul>
 												</div>
 											</div>
 										</div>
@@ -498,7 +1084,7 @@
 											<path d="M0 16V0C0 0 3 1 6 1C9 1 16 -2 16 3.5C16 10.5 7.5 16 0 16Z"></path>
 										</svg>
 									</div>
-									<div class="sc-hiKfDv irtmPq"><img src="/images/help.svg" alt="Get some help" class="sc-ciSkZP bwSYJA"></div>
+									<div class="sc-hiKfDv irtmPq"><img src="./images/help.svg" alt="Get some help" class="sc-ciSkZP bwSYJA"></div>
 								</div>
 							</div>
 						</div>
@@ -718,7 +1304,7 @@
 													</linearGradient>
 												</defs>
 											</svg>
-											<div color="#B8ADD2" class="sc-gtsrHT kdpiTO">$12.006</div>
+											<div color="#B8ADD2" class="sc-gtsrHT kdpiTO">$12.007</div>
 										</a>
 									</div><a class="sc-hKFxyN tSBKF" href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" target="_blank" scale="sm">Buy CAKE<svg viewBox="0 0 24 24" color="#FFFFFF" width="20px" xmlns="http://www.w3.org/2000/svg" class="sc-bdnxRM inIxCT"><path d="M5 13H16.17L11.29 17.88C10.9 18.27 10.9 18.91 11.29 19.3C11.68 19.69 12.31 19.69 12.7 19.3L19.29 12.71C19.68 12.32 19.68 11.69 19.29 11.3L12.71 4.7C12.32 4.31 11.69 4.31 11.3 4.7C10.91 5.09 10.91 5.72 11.3 6.11L16.17 11H5C4.45 11 4 11.45 4 12C4 12.55 4.45 13 5 13Z"></path></svg></a></div>
 							</div>
@@ -733,8 +1319,9 @@
 		<div id="reactDatePicker" class="sc-gJpXkD iEImRT"></div>
 	</div>
 	<div id="portal-root"></div>
+	
 	<script src="./static/js/6.5bdffbc8.chunk.js"></script>
-	<script src="./static/js/main.6b67649e.chunk.js"></script><span id="recharts_measurement_span" aria-hidden="true" style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; border: none; white-space: pre;">06:02</span></body>
+	<script src="./static/js/main.6b67649e.chunk.js"></script><span id="recharts_measurement_span" aria-hidden="true" style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; border: none; white-space: pre;">06:17</span></body>
 <div class="qt-dropdown "> </div>
 
 </html>
